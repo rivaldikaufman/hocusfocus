@@ -3,6 +3,8 @@
 <img width="686" height="951" alt="image" src="https://github.com/user-attachments/assets/8d33282b-216d-480a-9f5e-004ee5d08c34" />
 
 A modern, focus-enhancing Metronome web application built with React, Tailwind CSS v4, and Vite.
+This webapp helps you maintain steady productivity by providing customizable BPM settings, preset focus modes for different work intensities, and multiple metronome sounds. Features dark/light mode toggle and mobile background audio support, allowing the metronome to keep running even when your phone is locked—perfect for deep work sessions, coding sprints, or study marathons.
+
 
 ## Features
 
