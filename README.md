@@ -1,5 +1,7 @@
 # HocusFocus Metronome
 
+<img width="686" height="951" alt="image" src="https://github.com/user-attachments/assets/8d33282b-216d-480a-9f5e-004ee5d08c34" />
+
 A modern, focus-enhancing Metronome web application built with React, Tailwind CSS v4, and Vite.
 
 ## Features
