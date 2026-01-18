@@ -173,7 +173,7 @@ export default function MetronomeApp() {
               <Moon className="w-5 h-5 text-purple-600" />
             )}
           </button>
-          <h1 className={`text-4xl font-bold ${textPrimary} mb-2`}>Focus Metronome</h1>
+          <h1 className={`text-4xl font-bold ${textPrimary} mb-2`}>HocusFocus</h1>
           <p className={textSecondary}>Made By AwPetrik</p>
         </div>
 
