@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft Shadow -->
+  <filter id="soft-shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur" />
+    <feOffset in="blur" dx="0" dy="8" result="offsetBlur" />
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.2" />
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode in="offsetBlur" />
+      <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+
+  <!-- Background: White Rounded Square -->
+  <rect x="56" y="56" width="400" height="400" rx="80" fill="white" filter="url(#soft-shadow)" />
+
+  <!-- Eye of Horus: Dark Charcoal (#333333) Geometric Lines -->
+  <g transform="translate(106, 156) scale(0.6)" stroke="#333333" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Eye Shape -->
+    <path d="M50 150 Q250 50 450 150" /> <!-- Upper Lid -->
+    <path d="M50 150 Q250 250 450 150" /> <!-- Lower Lid -->
+    
+    <!-- Pupil -->
+    <circle cx="250" cy="150" r="45" fill="#333333" stroke="none"/>
+    
+    <!-- Vertical Teardrop -->
+    <path d="M350 190 L350 280 L320 350 L380 350 L350 280" /> 
+    
+    <!-- Spiral Line -->
+    <path d="M350 190 Q400 350 250 350 Q100 350 50 250" />
+    
+    <!-- Eyebrow -->
+    <path d="M50 100 Q250 0 450 100" stroke-width="30" />
+  </g>
+</svg>
